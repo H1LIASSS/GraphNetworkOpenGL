@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\t7929\Рабочий стол\GraphNetworkOpenGL\build\CMakeFiles\8206d96ef0a9d3707638aac720500ef7\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\t7929\Рабочий стол\GraphNetworkOpenGL\lib\glfw-master\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\t7929\Рабочий стол\GraphNetworkOpenGL\lib\glfw-master\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\t7929\Рабочий стол\GraphNetworkOpenGL\lib\glfw-master\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\t7929\Рабочий стол\GraphNetworkOpenGL\build\lib\glfw-master\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A49D9599-DD12-3803-B605-5A785BFB8EBC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7F9C9D0E-EA69-3490-BB54-AFF6B4966A2E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

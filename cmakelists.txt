@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.5)
+project(GraphNetwork)
+set(CMAKE_CXX_STANDART 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+file(GLOB SRC_FILES
+     "${CMAKE_CURRENT_SOURCE_DIR}/sources/src/*.cpp"
+     "${CMAKE_CURRENT_SOURCE_DIR}/sources/include/*.h"
+)
+
+	
+add_executable(GraphNetwork ${SRC_FILES})	
+	
+add_subdirectory(lib/glad)
+target_link_libraries(GraphNetwork PUBLIC GLAD)
+target_include_directories(GraphNetwork PUBLIC lib/glad/include)
+
+target_include_directories(GraphNetwork PUBLIC sources/include)
+
+add_subdirectory(lib/glfw-master)
+target_link_libraries(GraphNetwork PUBLIC glfw)
+target_include_directories(GraphNetwork PUBLIC lib/glfw-master/include)
+target_include_directories(GraphNetwork PUBLIC lib/glm-master/glm)

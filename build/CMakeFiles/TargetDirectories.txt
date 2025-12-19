@@ -1,0 +1,13 @@
+C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/CMakeFiles/GraphNetwork.dir
+C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/CMakeFiles/INSTALL.dir
+C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/lib/glad/CMakeFiles/GLAD.dir
+C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/lib/glad/CMakeFiles/INSTALL.dir
+C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/lib/glad/CMakeFiles/ALL_BUILD.dir
+C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/lib/glfw-master/CMakeFiles/uninstall.dir
+C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/lib/glfw-master/CMakeFiles/INSTALL.dir
+C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/lib/glfw-master/CMakeFiles/ALL_BUILD.dir
+C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/lib/glfw-master/src/CMakeFiles/glfw.dir
+C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/lib/glfw-master/src/CMakeFiles/update_mappings.dir
+C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/lib/glfw-master/src/CMakeFiles/INSTALL.dir
