@@ -1,6 +1,6 @@
-^C:\USERS\T7929\РАБОЧИЙ СТОЛ\GRAPHNETWORKOPENGL\LIB\GLAD\CMAKELISTS.TXT
+^C:\USERS\T7929\РАБОЧИЙ СТОЛ\GRAPHNETWORK\LIB\GLAD\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/t7929/Рабочий стол/GraphNetworkOpenGL" "-BC:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build" --check-stamp-file "C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/lib/glad/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/t7929/Рабочий стол/GraphNetwork" "-BC:/Users/t7929/Рабочий стол/GraphNetwork/build" --check-stamp-file "C:/Users/t7929/Рабочий стол/GraphNetwork/build/lib/glad/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

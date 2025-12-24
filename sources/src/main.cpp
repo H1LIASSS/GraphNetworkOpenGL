@@ -6,6 +6,7 @@
 #include <vector>
 
 #include "Shader.h"
+#include "Graph.h"
 
 using namespace std;
 
@@ -32,21 +33,23 @@ void windowInit(GLFWwindow* window, int width, int height)
 int main()
 {   
     projectInit();
-    int w = 1024, h = 320;
+    int w = 640, h = 640;
 
-    GLFWwindow* window = glfwCreateWindow(w, h, "ProceduralGeneration 1S", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(w, h, "GraphNetwork 1S", NULL, NULL);
     windowInit(window, w, h);
     Shader shader;
+	Graph graph(10,2);
 
     while (!glfwWindowShouldClose(window))
     {
         glClear(GL_COLOR_BUFFER_BIT);
 
         glUseProgram(shader.getShaderProgram());
-        //glBindVertexArray(lnd.getVAO());
-        //glPolygonMode(GL_FRONT_AND_BACK, GL_TRIANGLES);
-        //glDrawElements(GL_TRIANGLES, lnd.getVertecies(), GL_UNSIGNED_INT, 0);
-        glBindVertexArray(0);
+
+        //glBindVertexArray(graph.getVao());
+        //glPolygonMode(GL_FRONT_AND_BACK, GL_LINES);
+        //glDrawElements(GL_LINES, graph.getSize(), GL_UNSIGNED_INT, 0);
+        //glBindVertexArray(0);
         glfwSwapBuffers(window);
         glfwPollEvents();
     }

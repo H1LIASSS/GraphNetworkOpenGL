@@ -1,6 +1,6 @@
-^C:\USERS\T7929\РАБОЧИЙ СТОЛ\GRAPHNETWORKOPENGL\BUILD\CMAKEFILES\D9B54067697D9AD45B40BD22D87BD8AC\GENERATE.STAMP.RULE
+^C:\USERS\T7929\РАБОЧИЙ СТОЛ\GRAPHNETWORK\BUILD\CMAKEFILES\4F6B1955FEE891B9CA6DDA7A4EDE9BAF\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/t7929/Рабочий стол/GraphNetworkOpenGL" "-BC:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/GraphNetwork.sln"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/t7929/Рабочий стол/GraphNetwork" "-BC:/Users/t7929/Рабочий стол/GraphNetwork/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/t7929/Рабочий стол/GraphNetwork/build/GraphNetwork.sln"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

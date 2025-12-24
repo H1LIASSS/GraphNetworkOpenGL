@@ -1,4 +1,4 @@
-﻿  Building Custom Rule C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/lib/glfw-master/src/CMakeLists.txt
+﻿  Building Custom Rule C:/Users/t7929/Рабочий стол/GraphNetwork/lib/glfw-master/src/CMakeLists.txt
   context.c
   init.c
   input.c
@@ -23,4 +23,4 @@
   Compiling...
   wgl_context.c
   Generating Code...
-  glfw.vcxproj -> C:\Users\t7929\Рабочий стол\GraphNetworkOpenGL\build\lib\glfw-master\src\Debug\glfw3.lib
+  glfw.vcxproj -> C:\Users\t7929\Рабочий стол\GraphNetwork\build\lib\glfw-master\src\Debug\glfw3.lib

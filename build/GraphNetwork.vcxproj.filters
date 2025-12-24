@@ -1,30 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\t7929\Рабочий стол\GraphNetworkOpenGL\sources\src\Shader.cpp">
+    <ClCompile Include="C:\Users\t7929\Рабочий стол\GraphNetwork\sources\src\Shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\t7929\Рабочий стол\GraphNetworkOpenGL\sources\src\main.cpp">
+    <ClCompile Include="C:\Users\t7929\Рабочий стол\GraphNetwork\sources\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\src\Graph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\src\Vector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\t7929\Рабочий стол\GraphNetworkOpenGL\sources\include\Shader.h">
+    <ClInclude Include="C:\Users\t7929\Рабочий стол\GraphNetwork\sources\include\Shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\t7929\Рабочий стол\GraphNetworkOpenGL\sources\include\Units.h">
+    <ClInclude Include="..\sources\include\Graph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\include\Vector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\t7929\Рабочий стол\GraphNetworkOpenGL\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\t7929\Рабочий стол\GraphNetwork\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{7F9C9D0E-EA69-3490-BB54-AFF6B4966A2E}</UniqueIdentifier>
+      <UniqueIdentifier>{2C8CECEC-D761-32A0-9FD7-F6BA292BF4D0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{3F9C82FC-7ACE-3985-8110-B66D8A4FEC33}</UniqueIdentifier>
+      <UniqueIdentifier>{D7AA4E9B-A561-396E-8625-5ADFD3844C4F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

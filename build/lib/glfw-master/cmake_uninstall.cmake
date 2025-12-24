@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/lib/glfw-master/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/lib/glfw-master/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/t7929/Рабочий стол/GraphNetwork/build/lib/glfw-master/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/t7929/Рабочий стол/GraphNetwork/build/lib/glfw-master/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/t7929/Рабочий стол/GraphNetworkOpenGL/build/lib/glfw-master/install_manifest.txt" files)
+file(READ "C:/Users/t7929/Рабочий стол/GraphNetwork/build/lib/glfw-master/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})
