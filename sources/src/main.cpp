@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 
 #include "glad/glad.h"
 #include "GLFW/glfw3.h"
@@ -38,7 +38,7 @@ int main()
     GLFWwindow* window = glfwCreateWindow(w, h, "GraphNetwork 1S", NULL, NULL);
     windowInit(window, w, h);
     Shader shader;
-	Graph graph(20,20);
+	Graph graph(1000,1);
 
     while (!glfwWindowShouldClose(window))
     {
@@ -52,92 +52,80 @@ int main()
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
-	-
+	
     glfwTerminate();
     return 0;
 }
-
-///Draw a graph
-//Make a cooler code 
-///OpenGL yessir
-///Draw an arrow with number on center 
-/// //Project is 2D
-/// //
-/// /
-/// /
-/// //
-/// /
-/// //
+////////////////////////////////
+///
+///
+///
+///сфера вставить вершины на поверхности сферы  
+///  
+///  
 /// 
-/// //
-/// /
-/// /
-/// //
-/// 
-/// //
-/// 
-/// /
+////////////////////////////////
 
 
-void fGraph()
-{
-	int degree = 0;
-	const int graphSize = 6, m = 6;
-	int Adjacent[graphSize][graphSize];
-	vector<double> probabilities;
-	probabilities.push_back(0);
-
-
-	for (int i = 0; i < graphSize; i++)
-	{
-		for (int j = 0; j < graphSize; j++)
-		{
-			Adjacent[i][j] = 0;
-		}
-		Adjacent[i][i] = m;
-		probabilities.push_back(0);
-	}
-	Adjacent[0][0] = 2 * m;
-	degree += 2 * m;
-
-
-	for (int i = 1; i < graphSize; i++)
-	{
-		for (int j = 0; j < m; j++)
-		{
-			for (int x = 0; x < i; x++)
-			{
-				double s = 0;
-				for (int y = 0; y < i; y++)
-				{
-					s += Adjacent[x][y];
-				}
-				probabilities[x + 1] = (probabilities[x] + (s / degree) * 100);
-			} //get probability zones 
-			double p = rand() % 100;
-			for (int x = 0; x < probabilities.size() - 1; x++)
-			{
-				if (probabilities[x] <= p && probabilities[x + 1] >= p)
-				{
-					Adjacent[x][i] += 1;
-					break;
-				}
-			}
-		}
-		degree += 2 * m;
-
-		for (int x = 0; x < graphSize; x++)
-		{
-			for (int y = 0; y < graphSize; y++)
-			{
-				cout << Adjacent[x][y] << " ,";
-			}
-			cout << endl;
-		}
-		cout << endl;
-
-	}
-}
+//void fGraph()
+//{
+//	int degree = 0;
+//	const int graphSize = 6, m = 6;
+//	int Adjacent[graphSize][graphSize];
+//	vector<double> probabilities;
+//	probabilities.push_back(0);
+//
+//
+//	for (int i = 0; i < graphSize; i++)
+//	{
+//		for (int j = 0; j < graphSize; j++)
+//		{
+//			Adjacent[i][j] = 0;
+//		}
+//		Adjacent[i][i] = m;
+//		probabilities.push_back(0);
+//	}
+//	Adjacent[0][0] = 2 * m;
+//	degree += 2 * m;
+//
+//
+//	for (int i = 1; i < graphSize; i++)
+//	{
+//		for (int j = 0; j < m; j++)
+//		{
+//			for (int x = 0; x < i; x++)
+//			{
+//				double s = 0;
+//				for (int y = 0; y < i; y++)
+//				{
+//					s += Adjacent[x][y];
+//				}
+//				probabilities[x + 1] = (probabilities[x] + (s / degree) * 100);
+//			} //get probability zones 
+//			double p = rand() % 100;
+//			for (int x = 0; x < probabilities.size() - 1; x++)
+//			{
+//				if (probabilities[x] <= p && probabilities[x + 1] >= p)
+//				{
+//					Adjacent[x][i] += 1;
+//					break;
+//				}
+//			}
+//		}
+//		degree += 2 * m;
+//
+//		for (int x = 0; x < graphSize; x++)
+//		{
+//			for (int y = 0; y < graphSize; y++)
+//			{
+//				cout << Adjacent[x][y] << " ,";
+//			}
+//			cout << endl;
+//		}
+//		cout << endl;
+//
+//	}
+//}
 
 
 //TODO  

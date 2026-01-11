@@ -1,0 +1,11 @@
+﻿  Building Custom Rule C:/Users/Nat/Desktop/GraphNetworkOpenGL/CMakeLists.txt
+  Graph.cpp
+C:\Users\Nat\Desktop\GraphNetworkOpenGL\sources\include\Graph.h(12,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nat\Desktop\GraphNetworkOpenGL\sources\src\Graph.cpp(10,12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Nat\Desktop\GraphNetworkOpenGL\sources\src\Graph.cpp(11,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Shader.cpp
+  Vector.cpp
+  main.cpp
+C:\Users\Nat\Desktop\GraphNetworkOpenGL\sources\include\Graph.h(12,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  GraphNetwork.vcxproj -> C:\Users\Nat\Desktop\GraphNetworkOpenGL\build\Release\GraphNetwork.exe

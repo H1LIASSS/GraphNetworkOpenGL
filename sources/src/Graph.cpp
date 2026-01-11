@@ -7,14 +7,14 @@ void Graph::fillvbo()
 {
 	for (int i = 0; i < nodes; i++)
 	{
-		float x = (float(rand() % 200) - 100) / 100.f;
-		float y = (float(rand() % 200) - 100) / 100.f;
+		float th = rand() % 360;
+		float f = rand() % 360;
 
 		float r = float(rand() % 100) / 100.f;
 		float g = float(rand() % 100) / 100.f;
 		float b = float(rand() % 100) / 100.f;
 
-		vertexes.push_back(Vector(x, y, 0));
+		vertexes.push_back(Vector(cos(f)*cos(th), sin(f), cos(f) * sin(f)));
 		vertexes.push_back(Vector(r,g,b));
 	}
 
@@ -39,10 +39,10 @@ void Graph::fillebo()
 	}
 	std::cout << std::endl;
 
-	for (int i = 0; i < connections.size(); i++)
-	{
-		cout << connections[i] << ", ";
-	}
+	//for (int i = 0; i < connections.size(); i++)
+	//{
+	//	cout << connections[i] << ", ";
+	//}
 
 
 	glGenBuffers(1, &eb);
@@ -118,9 +118,9 @@ void Graph::defineGraph()
 			}
 		}
 		degree += 2 * weight;
-	}				////			////
-														////
-	for (int i = 0; i < graphMap.size(); i++)
+	}				////			////			
+														
+	/*for (int i = 0; i < graphMap.size(); i++)
 	{
 		for (int j = 0; j < graphMap.size(); j++)
 		{
@@ -128,10 +128,23 @@ void Graph::defineGraph()
 		}
 		std::cout << std::endl;
 	}
-	std::cout << std::endl;
+	std::cout << std::endl;*/
 
 	fillvbo();
 	fillebo();
 	fillvao();
+
+	cout << endl;
+
+	for (int i = 0; i < nodes; i++)
+	{
+		int s = 0;
+		for (int j = i+1; j < nodes; j++)
+		{
+			s += graphMap[i][j];
+		}
+		cout << s << ", ";
+		//how would work 
+	}
 
 }

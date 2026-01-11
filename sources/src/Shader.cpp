@@ -20,8 +20,8 @@ std::string loadData(std::string path)
 Shader::Shader()
 {
     //Load text
-    std::string a = loadData("../vertexshader.glsl").c_str();
-    std::string b = loadData("../fragmentshader.glsl").c_str();
+    std::string a = loadData("../shaders/vertexshader.glsl");
+    std::string b = loadData("../shaders/fragmentshader.glsl");
 
     //Vertex shader
     const GLchar* vertexShaderSource = a.c_str();
