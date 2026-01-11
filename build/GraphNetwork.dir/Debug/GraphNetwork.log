@@ -1,3 +1,0 @@
-﻿  main.cpp
-C:\Users\Nat\Desktop\GraphNetworkOpenGL\sources\include\Graph.h(12,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-  GraphNetwork.vcxproj -> C:\Users\Nat\Desktop\GraphNetworkOpenGL\build\Debug\GraphNetwork.exe
