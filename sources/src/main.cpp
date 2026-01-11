@@ -38,7 +38,7 @@ int main()
     GLFWwindow* window = glfwCreateWindow(w, h, "GraphNetwork 1S", NULL, NULL);
     windowInit(window, w, h);
     Shader shader;
-	Graph graph(10,2);
+	Graph graph(20,20);
 
     while (!glfwWindowShouldClose(window))
     {
@@ -46,14 +46,13 @@ int main()
 
         glUseProgram(shader.getShaderProgram());
 
-        //glBindVertexArray(graph.getVao());
-        //glPolygonMode(GL_FRONT_AND_BACK, GL_LINES);
-        //glDrawElements(GL_LINES, graph.getSize(), GL_UNSIGNED_INT, 0);
-        //glBindVertexArray(0);
+        glBindVertexArray(graph.getVAO());
+        glDrawElements(GL_LINES, graph.noc(), GL_UNSIGNED_INT, 0);
+        glBindVertexArray(0);
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
-
+	-
     glfwTerminate();
     return 0;
 }

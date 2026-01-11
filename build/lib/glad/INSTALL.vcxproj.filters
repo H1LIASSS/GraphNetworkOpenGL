@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\t7929\Рабочий стол\GraphNetwork\build\CMakeFiles\f99cd50542ac3fcc7f0bf8a044deb6dd\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\Nat\Desktop\GraphNetworkOpenGL\build\CMakeFiles\45e8ae7fc3dcae710c244b45ca10b7a5\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{0BAD74EB-B371-3A92-847C-BEA723AE62AF}</UniqueIdentifier>
+      <UniqueIdentifier>{C8DA4B68-673D-3A8B-A344-122A78185329}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

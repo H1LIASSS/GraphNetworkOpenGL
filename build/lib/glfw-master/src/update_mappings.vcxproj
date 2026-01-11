@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{532DEF0D-2AD4-3BB2-8414-C3046A4E9527}</ProjectGuid>
+    <ProjectGuid>{82BEA893-B9C7-35EE-913E-493F65ABFCF2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>update_mappings</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -105,14 +105,14 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\t7929\Рабочий стол\GraphNetwork\build\CMakeFiles\062430718913579f77244f73dc43e8c4\update_mappings.rule">
+    <CustomBuild Include="C:\Users\Nat\Desktop\GraphNetworkOpenGL\build\CMakeFiles\1a4ba186e3769e2e69f935bdcf9a4a05\update_mappings.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\t7929\Рабочий стол\GraphNetwork\lib\glfw-master\src"
+cd C:\Users\Nat\Desktop\GraphNetworkOpenGL\lib\glfw-master\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/t7929/Рабочий стол/GraphNetwork/lib/glfw-master/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Nat/Desktop/GraphNetworkOpenGL/lib/glfw-master/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,16 +121,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\t7929\Рабочий стол\GraphNetwork\build\lib\glfw-master\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Nat\Desktop\GraphNetworkOpenGL\build\lib\glfw-master\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\Users\t7929\Рабочий стол\GraphNetwork\lib\glfw-master\src"
+cd C:\Users\Nat\Desktop\GraphNetworkOpenGL\lib\glfw-master\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/t7929/Рабочий стол/GraphNetwork/lib/glfw-master/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Nat/Desktop/GraphNetworkOpenGL/lib/glfw-master/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -139,16 +139,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\t7929\Рабочий стол\GraphNetwork\build\lib\glfw-master\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Nat\Desktop\GraphNetworkOpenGL\build\lib\glfw-master\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\Users\t7929\Рабочий стол\GraphNetwork\lib\glfw-master\src"
+cd C:\Users\Nat\Desktop\GraphNetworkOpenGL\lib\glfw-master\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/t7929/Рабочий стол/GraphNetwork/lib/glfw-master/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Nat/Desktop/GraphNetworkOpenGL/lib/glfw-master/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -157,16 +157,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\t7929\Рабочий стол\GraphNetwork\build\lib\glfw-master\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Nat\Desktop\GraphNetworkOpenGL\build\lib\glfw-master\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\Users\t7929\Рабочий стол\GraphNetwork\lib\glfw-master\src"
+cd C:\Users\Nat\Desktop\GraphNetworkOpenGL\lib\glfw-master\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/t7929/Рабочий стол/GraphNetwork/lib/glfw-master/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Nat/Desktop/GraphNetworkOpenGL/lib/glfw-master/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -175,17 +175,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\t7929\Рабочий стол\GraphNetwork\build\lib\glfw-master\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Nat\Desktop\GraphNetworkOpenGL\build\lib\glfw-master\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\t7929\Рабочий стол\GraphNetwork\lib\glfw-master\src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Nat\Desktop\GraphNetworkOpenGL\lib\glfw-master\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/t7929/Рабочий стол/GraphNetwork/lib/glfw-master/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Nat/Desktop/GraphNetworkOpenGL/lib/glfw-master/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/t7929/Рабочий стол/GraphNetwork" "-BC:/Users/t7929/Рабочий стол/GraphNetwork/build" --check-stamp-file "C:/Users/t7929/Рабочий стол/GraphNetwork/build/lib/glfw-master/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Nat/Desktop/GraphNetworkOpenGL -BC:/Users/Nat/Desktop/GraphNetworkOpenGL/build --check-stamp-file C:/Users/Nat/Desktop/GraphNetworkOpenGL/build/lib/glfw-master/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -193,12 +193,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\t7929\Рабочий стол\GraphNetwork\lib\glfw-master\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\t7929\Рабочий стол\GraphNetwork\build\lib\glfw-master\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Nat\Desktop\GraphNetworkOpenGL\lib\glfw-master\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Nat\Desktop\GraphNetworkOpenGL\build\lib\glfw-master\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/t7929/Рабочий стол/GraphNetwork/lib/glfw-master/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Nat/Desktop/GraphNetworkOpenGL/lib/glfw-master/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/t7929/Рабочий стол/GraphNetwork" "-BC:/Users/t7929/Рабочий стол/GraphNetwork/build" --check-stamp-file "C:/Users/t7929/Рабочий стол/GraphNetwork/build/lib/glfw-master/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Nat/Desktop/GraphNetworkOpenGL -BC:/Users/Nat/Desktop/GraphNetworkOpenGL/build --check-stamp-file C:/Users/Nat/Desktop/GraphNetworkOpenGL/build/lib/glfw-master/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -206,12 +206,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\t7929\Рабочий стол\GraphNetwork\lib\glfw-master\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\t7929\Рабочий стол\GraphNetwork\build\lib\glfw-master\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Nat\Desktop\GraphNetworkOpenGL\lib\glfw-master\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Nat\Desktop\GraphNetworkOpenGL\build\lib\glfw-master\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/t7929/Рабочий стол/GraphNetwork/lib/glfw-master/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Nat/Desktop/GraphNetworkOpenGL/lib/glfw-master/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/t7929/Рабочий стол/GraphNetwork" "-BC:/Users/t7929/Рабочий стол/GraphNetwork/build" --check-stamp-file "C:/Users/t7929/Рабочий стол/GraphNetwork/build/lib/glfw-master/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Nat/Desktop/GraphNetworkOpenGL -BC:/Users/Nat/Desktop/GraphNetworkOpenGL/build --check-stamp-file C:/Users/Nat/Desktop/GraphNetworkOpenGL/build/lib/glfw-master/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -219,12 +219,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\t7929\Рабочий стол\GraphNetwork\lib\glfw-master\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\t7929\Рабочий стол\GraphNetwork\build\lib\glfw-master\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Nat\Desktop\GraphNetworkOpenGL\lib\glfw-master\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Nat\Desktop\GraphNetworkOpenGL\build\lib\glfw-master\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/t7929/Рабочий стол/GraphNetwork/lib/glfw-master/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Nat/Desktop/GraphNetworkOpenGL/lib/glfw-master/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/t7929/Рабочий стол/GraphNetwork" "-BC:/Users/t7929/Рабочий стол/GraphNetwork/build" --check-stamp-file "C:/Users/t7929/Рабочий стол/GraphNetwork/build/lib/glfw-master/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Nat/Desktop/GraphNetworkOpenGL -BC:/Users/Nat/Desktop/GraphNetworkOpenGL/build --check-stamp-file C:/Users/Nat/Desktop/GraphNetworkOpenGL/build/lib/glfw-master/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -232,23 +232,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\t7929\Рабочий стол\GraphNetwork\lib\glfw-master\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\t7929\Рабочий стол\GraphNetwork\build\lib\glfw-master\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Nat\Desktop\GraphNetworkOpenGL\lib\glfw-master\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Nat\Desktop\GraphNetworkOpenGL\build\lib\glfw-master\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\t7929\Рабочий стол\GraphNetwork\lib\glfw-master\src\mappings.h.in">
+    <None Include="C:\Users\Nat\Desktop\GraphNetworkOpenGL\lib\glfw-master\src\mappings.h.in">
     </None>
-    <None Include="C:\Users\t7929\Рабочий стол\GraphNetwork\lib\glfw-master\CMake\GenerateMappings.cmake">
+    <None Include="C:\Users\Nat\Desktop\GraphNetworkOpenGL\lib\glfw-master\CMake\GenerateMappings.cmake">
     </None>
-    <None Include="C:\Users\t7929\Рабочий стол\GraphNetwork\build\lib\glfw-master\src\CMakeFiles\update_mappings">
+    <None Include="C:\Users\Nat\Desktop\GraphNetworkOpenGL\build\lib\glfw-master\src\CMakeFiles\update_mappings">
     </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\t7929\Рабочий стол\GraphNetwork\build\ZERO_CHECK.vcxproj">
-      <Project>{30FDD731-FE4C-3F7F-AFE7-2EBBA3557A07}</Project>
+    <ProjectReference Include="C:\Users\Nat\Desktop\GraphNetworkOpenGL\build\ZERO_CHECK.vcxproj">
+      <Project>{384088E3-B3DA-3B48-825A-781357E9F6FA}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

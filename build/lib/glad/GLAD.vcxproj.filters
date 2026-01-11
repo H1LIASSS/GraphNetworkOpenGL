@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\t7929\Рабочий стол\GraphNetwork\lib\glad\src\glad.c">
+    <ClCompile Include="C:\Users\Nat\Desktop\GraphNetworkOpenGL\lib\glad\src\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\t7929\Рабочий стол\GraphNetwork\lib\glad\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Nat\Desktop\GraphNetworkOpenGL\lib\glad\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D7AA4E9B-A561-396E-8625-5ADFD3844C4F}</UniqueIdentifier>
+      <UniqueIdentifier>{BAA567AC-2318-3023-BF20-640756B30243}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

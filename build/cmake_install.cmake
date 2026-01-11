@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/t7929/Рабочий стол/GraphNetwork
+# Install script for directory: C:/Users/Nat/Desktop/GraphNetworkOpenGL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,15 +34,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/t7929/Рабочий стол/GraphNetwork/build/lib/glad/cmake_install.cmake")
-  include("C:/Users/t7929/Рабочий стол/GraphNetwork/build/lib/glfw-master/cmake_install.cmake")
+  include("C:/Users/Nat/Desktop/GraphNetworkOpenGL/build/lib/glad/cmake_install.cmake")
+  include("C:/Users/Nat/Desktop/GraphNetworkOpenGL/build/lib/glfw-master/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/t7929/Рабочий стол/GraphNetwork/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/Nat/Desktop/GraphNetworkOpenGL/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -58,6 +58,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/t7929/Рабочий стол/GraphNetwork/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/Nat/Desktop/GraphNetworkOpenGL/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
