@@ -146,5 +146,8 @@ void Graph::defineGraph()
 		cout << s << ", ";
 		//how would work 
 	}
+	cout << endl;
+	cout << endl;
 
+	cout << graphMap[0].size();
 }
